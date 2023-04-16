@@ -1,0 +1,10 @@
+<!-- Template untuk input data ke database menggunakan Tinker -->
+
+App\Models\Kendaraan::create(
+    [
+    'merek' => 'Daihatsu',
+    'tipe' => 'Sigra',
+    'transmisi' => 'Automatic',
+    'img' => 'sigra-matic.webp'
+    ]
+    )
